@@ -27,7 +27,7 @@ spec:
           kind: PrometheusRule
   values:
     grafana:
-      adminPassword: Alaska@2030!!
+      adminPassword: admin
       ingress:
         enabled: true
         ingressClassName: traefik

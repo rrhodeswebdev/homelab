@@ -33,4 +33,7 @@ spec:
         ingressClassName: traefik
         hosts:
           - monitoring.ryanrhodes.dev
-        tls: []
+        tls:
+          - secretName: grafana-tls-secret
+            hosts:
+              - monitoring.ryanrhodes.dev

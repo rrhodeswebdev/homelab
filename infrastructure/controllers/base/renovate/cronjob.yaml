@@ -14,7 +14,7 @@ spec:
             - name: renovate
               image: renovate/renovate:latest
               args:
-                - rrhodesweb/homelab
+                - rrhodeswebdev/homelab
 
               envFrom:
                 - secretRef:
